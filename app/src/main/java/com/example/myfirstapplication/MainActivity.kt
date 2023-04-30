@@ -93,12 +93,12 @@ fun SignUpUi() {
             Checkbox(
                 checked = rememberMe.value ,
                 onCheckedChange = {rememberMe.value = it},
-                modifier = Modifier.padding(start = 120.dp, top = 520.dp),
+                modifier = Modifier.padding(start = 110.dp, top = 480.dp),
                 colors = CheckboxDefaults.colors(checkedColor = Color(0xFFC9A7EB))
             )
             Text(
                 text = "Remember me",
-                modifier = Modifier.padding(top = 535.dp),
+                modifier = Modifier.padding(top = 495.dp),
                 color = Color.Gray
             )
         }
@@ -125,7 +125,6 @@ fun SignUpUi() {
     }
 
 }
-
 
 @Preview(showBackground = true)
 @Composable
