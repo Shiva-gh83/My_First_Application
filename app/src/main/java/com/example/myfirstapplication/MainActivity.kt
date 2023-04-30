@@ -126,6 +126,7 @@ fun SignUpUi() {
 
 }
 
+
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
